@@ -1,0 +1,61 @@
+[{
+    "text": "首页",
+    "icon": "yc-icon-home",
+    "url": "/home"
+  },
+  {
+    "text": "首页配置",
+    "icon": "yc-icon-home-setting",
+    "child": [{
+        "text": "Banner配置",
+        "url": "/banner/list"
+      },
+      {
+        "text": "单栏专区配置",
+        "url": "/index/list/0"
+      },
+      {
+        "text": "推荐商品配置",
+        "url": "/recommend/list"
+      }
+    ]
+  },
+  {
+    "text": "专题配置",
+    "icon": "yc-icon-zhuantipeizhi",
+    "child": [{
+        "text": "新增专题",
+        "url": "/template"
+      },
+      {
+        "text": "专题列表",
+        "url": "/topic/list"
+      }
+    ]
+  },
+  {
+    "text": "ui库",
+    "icon": "el-icon-menu",
+    "child": [{
+        "text": "button",
+        "url": "/demo/button"
+      },
+      {
+        "text": "card",
+        "url": "/demo/card"
+      },
+      {
+        "text": "table",
+        "url": "/demo/table"
+      },
+      {
+        "text": "drag",
+        "url": "/demo/drag"
+      },
+      {
+        "text": "form",
+        "url": "/demo/form"
+      }
+    ]
+  }
+]

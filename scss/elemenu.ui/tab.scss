@@ -1,0 +1,30 @@
+.el-tabs--border-card {
+  box-shadow: none;
+  border: none;
+  >.el-tabs__header {
+    background: none;
+    border: 1px solid #CCCCCC;
+    border-top: 0;
+    border-right: 0;
+    .el-tabs__item {
+      background: #F5F5F5;
+      border: 1px solid #CCCCCC;
+      font-size: 14px;
+      color: #333333;
+      position: relative;
+      transition: none;
+      &.is-active {
+        border-bottom: 0;
+        &:before {
+          content: '';
+          height: 4px;
+          width: 100%;
+          background-color: #64B7F6;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+}

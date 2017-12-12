@@ -1,0 +1,31 @@
+
+$border-color: #F2F2F2;
+
+.el-table {
+  border: none;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.10);
+  th {
+    height: 35px;
+  }
+  td {
+    height: 36px;
+  }
+  &__header-wrapper thead div,
+  &__footer-wrapper thead div {
+    color: #333;
+    background: #F2F2F2;
+  }
+}
+
+// 斑马条纹
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: #F1F6FE;
+}
+
+// border 
+.el-table--border th, .el-table--border td {
+    border-right: 1px solid $border-color;
+}
+.el-table th.is-leaf, .el-table td {
+  border-bottom: 1px solid $border-color;
+}

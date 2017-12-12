@@ -1,0 +1,19 @@
+.el-dialog {
+  border: 2px solid #ccc;
+  border-radius: 0;
+  &__header {
+    padding: 11px 20px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #F2F2F2;
+    .el-icon-close {
+      color: #333333;
+    }
+  }
+  &__title {
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+    font-weight: normal;
+  }
+}

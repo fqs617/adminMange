@@ -1,0 +1,44 @@
+.yc-blue-btn {
+  width: 80px;
+  height: 32px;
+  padding: initial;
+  border: 1px solid #2788EA;
+  > span {
+    font-size: 14px;
+    color: #2788EA;
+  }
+}
+.yc-long-ipt {
+  width: 224px;
+}
+.yc-short-ipt,.yc-short-ipt.el-date-editor{
+  width: 95px;
+}
+.el-date-editor[noicon] {
+  > i {
+    display: none;
+  }
+  .el-input__icon + .el-input__inner {
+    padding-right: 10px;
+    text-align: center;
+  }
+}
+.yc-tag-default {
+  background-color: #FFF;
+  color: #333;
+  border: 1px solid #CCCCCC;
+  margin-right: 10px;
+}
+.yc-ipt {
+  &[long] {
+    width: 224px;
+  }
+  &[short],&[short].el-date-editor {
+    width:95px;
+  }
+  &[noradius] {
+    .el-input__inner {
+      border-radius: 1px;
+    }
+  }
+}

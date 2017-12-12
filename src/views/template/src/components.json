@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "type": "1",
+    "desc": "横排单列广告位",
+    "src": "single.column.vue",
+    "rules": {
+      "name": "singleRules",
+      "validateState": true,
+      "message": []
+    },
+    "data": {
+      "moduleType": 1,
+      "modulesDetailList": [
+        {
+          "position": 0,
+          "imgUrl": "",
+          "linkType": 1,
+          "linkValue": "",
+          "linkDesc": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "type": "2",
+    "desc": "横排两列广告位",
+    "src": "double.column.vue",
+    "rules": {
+      "name": "doubleRules",
+      "validateState": true,
+      "message": []
+    },
+    "data": {
+      "moduleType": 2,
+      "modulesDetailList": [
+        {
+          "position": 1,
+          "imgUrl": "",
+          "linkType": 1,
+          "linkValue": "",
+          "linkDesc": ""
+        },
+        {
+          "position": 2,
+          "imgUrl": "",
+          "linkType": 1,
+          "linkValue": "",
+          "linkDesc": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "type": "3",
+    "desc": "区块",
+    "src": "tabs.vue",
+    "rules": {
+      "name": "tabsRules",
+      "validateState": true,
+      "message": []
+    },
+    "data": {
+      "moduleType": 0,
+      "moduleBackgroundType": 0,
+      "moduleTitleFontColor": "#505050",
+      "moduleBackgroundValue": "#E8EFFF",
+      "cacheBgColor": "#E8EFFF",
+      "cacheBgImg": "",
+      "modulesDetailList": [
+      ]
+    }
+  }
+]

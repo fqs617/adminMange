@@ -1,0 +1,90 @@
+@import 'scss/variables.scss';
+@import 'scss/mixin.scss';
+.list-ul{
+  padding: 10px 0px 10px 75px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 92%;
+  li{
+    margin-right: 17px;
+    margin-bottom: 20px;
+    width: 31%;
+    height: 120px;
+    background: #fff;
+    position: relative;
+    i{
+      position: absolute;
+      top: -10px;
+      right: -8px;
+      width: 27px;
+      height: 27px;
+      background: url('../../../assets/img/del.png') no-repeat;
+      background-size: 100%;
+      cursor: pointer;
+    }
+    .info{
+      height: 100%;
+      background: #fff;
+      position: relative;
+      .img{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top: 15px;
+        left: 15px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .detail{
+        position: absolute;
+        left: 120px;
+        top: 20px;
+        p{
+          line-height: 14px;/*no*/
+          height: 14px;/*no*/
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  li:nth-child(3n){
+    margin-right: 0;
+  }
+}
+.topic{
+    .el-color-picker{
+      width: 200px;
+      height: 40px;
+      background: #fff;
+      .el-color-picker__trigger{
+        width: 200px;
+        height: 40px;
+        border-radius:0;
+        .el-color-picker__color{
+          width: 160px;
+          height: 28px;
+          border: none;
+        }
+        .el-color-picker__icon{
+          position: relative;
+          top: -9px;
+        }
+      }
+    }
+  }
+.topic-title{
+  display: inline-block;
+  padding-left: 67px;
+  font-size: 14px;
+  color: #333333;
+}
+.clear{
+  clear: both;
+}
+.el-icon-close:before{
+  content: ""
+}

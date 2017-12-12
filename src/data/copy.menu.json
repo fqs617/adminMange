@@ -1,0 +1,153 @@
+[
+  {
+    "text": "首页",
+    "icon": "yc-icon-home",
+    "url": "/home"
+  },
+  {
+    "text": "云产品库",
+    "icon": "yc-icon-chanpinku"
+  },
+  {
+    "text": "商户管理",
+    "icon": "yc-icon-spgl",
+    "child": [
+      {
+        "text": "商户列表",
+        "url": "/merchant/list"
+      },
+      {
+        "text": "新增商户",
+        "url": "/merchant/add/1/1"
+      }
+    ]
+  },
+  {
+    "text": "交易管理",
+    "icon": "yc-icon-jiaoyi",
+    "child": [
+      {
+        "text": "三月",
+        "url": "/shangping/1"
+      },
+      {
+        "text": "四月",
+        "url": "/shangping/2"
+      }
+    ]
+  },
+  {
+    "text": "财务管理",
+    "icon": "yc-icon-caiwu"
+  },
+  {
+    "text": "营销管理",
+    "icon": "yc-icon-yingxiao"
+  },
+  {
+    "text": "首页配置",
+    "icon": "yc-icon-home-setting",
+    "child": [
+      {
+        "text": "Banner配置",
+        "url": "/banner/list"
+      },
+      {
+        "text": "单栏专区配置",
+        "url": "/index/list/0"
+      },
+      {
+        "text": "组合专区配置",
+        "url": "/index/group/"
+      },
+      {
+        "text": "推荐商品配置",
+        "url": "/recommend/list"
+      },
+      {
+        "text": "品牌分类专区配置",
+        "url": "/brand/list"
+      },
+      {
+        "text": "四月",
+        "url": "/shangping/2"
+      }
+    ]
+  },
+  {
+    "text": "专题配置",
+    "icon": "yc-icon-zhuantipeizhi",
+    "child": [
+      {
+        "text": "新增专题",
+        "url": "/topic/new/topic"
+      },
+      {
+        "text": "专题列表",
+        "url": "/topic/list"
+      }
+    ]
+  },
+  {
+    "text": "数据报表",
+    "icon": "yc-icon-shuju"
+  },
+  {
+    "text": "账户管理",
+    "icon": "yc-icon-zhanghao",
+    "child": [
+      {
+        "text": "用户列表",
+        "url": "/account/list"
+      },
+      {
+        "text": "新增用户",
+        "url": "/account/add"
+      }
+    ]
+  },
+  {
+    "text": "基础设置",
+    "icon": "yc-icon-jichushezhi",
+    "child": [
+      {
+        "text": "云采卖家角色与权限设置",
+        "url": "/basic/seller"
+      },
+      {
+        "text": "云采后台角色与权限设置",
+        "url": "/basic/backstage"
+      }
+    ]
+  },
+  {
+    "text": "ui库",
+    "icon": "el-icon-menu",
+    "child": [
+      {
+        "text": "button",
+        "url": "/demo/button"
+      },
+      {
+        "text": "card",
+        "url": "/demo/card"
+      },
+      {
+        "text": "table",
+        "url": "/demo/table"
+      },
+      {
+        "text": "drag",
+        "url": "/demo/drag"
+      },
+      {
+        "text": "template",
+        "url": "/template"
+      },
+      {
+        "text": "form",
+        "url": "/demo/form"
+      }
+    ]
+  }
+]

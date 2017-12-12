@@ -1,0 +1,28 @@
+.yc-form-item {
+  .el-select {
+    max-width: 150px;
+  }
+}
+
+.yc-form.el-form {
+  .el-form-item {
+    &__content {
+      line-height: 40px;
+    }
+    &__label {
+      color: #333;
+    }
+    .el-input {
+      max-width: 300px;
+      &__inner {
+        border: 1px solid #cccccc;
+        border-radius: 0;
+        height: 40px;
+      }
+    }
+  }
+}
+
+.el-select .el-input .el-input__icon {
+  color: #999999;
+}
